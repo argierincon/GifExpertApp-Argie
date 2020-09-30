@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-// import PrimeraApp from './PrimerApp';
-import CounterApp from './components/Counter/Counter'
+import PrimeraApp from './PrimerApp';
 
 const App = document.querySelector('#app');
 
-ReactDOM.render( < CounterApp value={10} / > , App)
+ReactDOM.render( < PrimeraApp value={10} / > , App)
