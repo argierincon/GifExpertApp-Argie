@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import PrimeraApp from './PrimerApp';
+
+import GifExpertApp from './components/GifExpertApp/GifExpertApp';
+
+import './index.css';
 
 const App = document.querySelector('#app');
 
-ReactDOM.render( < PrimeraApp value={10} / > , App)
+ReactDOM.render( < GifExpertApp / > , App)
