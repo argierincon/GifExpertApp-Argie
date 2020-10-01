@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import GifGridItem from "../GifGridItem/GifGridItem";
 import { getGifs } from "../../helpers/getGifs";
 
+// SECCIÓN 6, USEEFFECT. VIDEO 74.
+
 export const GifGrid = ({ category }) => {
   const [gifs, setGifs] = useState([]);
 
