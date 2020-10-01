@@ -1,0 +1,21 @@
+.gif-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  margin: 10px;
+  /* border: 1px solid grey; */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: -3px 2px 5px rgba(65, 65, 65, 0.2),
+    2px 5px 6px rgba(65, 65, 65, 0.2);
+}
+
+.gif-box > img {
+  width: 100%;
+}
+
+.gif-box > p {
+  text-align: center;
+}
