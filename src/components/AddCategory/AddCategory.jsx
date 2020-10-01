@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
+import './AddCategory.css'
+
 export const AddCategory = ({ setCategories }) => {
   const [inputValue, setInputValue] = useState("");
 

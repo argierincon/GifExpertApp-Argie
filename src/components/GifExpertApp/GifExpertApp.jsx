@@ -8,16 +8,16 @@ const GifExpertApp = () => {
   const [categories, setCategories] = useState(["Anne"]);
 
   return (
-    <>
+    <section>
       <h2>GifExpertApp</h2>
       <AddCategory setCategories={setCategories} />
       <hr />
-      <ol>
+      <div>
         {categories.map((category) => (
           <GifGrid category={category} key={category} />
         ))}
-      </ol>
-    </>
+      </div>
+    </section>
   );
 };
 

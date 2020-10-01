@@ -3,3 +3,18 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.cats {
+  color: #333;
+  background: linear-gradient(
+    273.94deg,
+    rgba(186, 12, 223, 0.5) 4.97%,
+    rgba(6, 242, 193, 0.5) 98.41%
+  );
+  border-radius: 25px;
+  width: 36%;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 25px;
+  margin-left: 2.5%;
+}

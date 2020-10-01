@@ -13,7 +13,7 @@ export const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3>{category}</h3>
+      <h3 className="cats">{category}</h3>
       {loading && "Loading..."}
       <div className="gif-category">
         {gifs.map((gif) => (
